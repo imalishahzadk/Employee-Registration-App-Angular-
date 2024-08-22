@@ -1,0 +1,40 @@
+<div class="container mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
+    <h1 class="text-3xl font-bold mb-6 text-center">Employee List</h1>
+    <a routerLink="/register" class="btn btn-primary font-semibold text-[30px] text-center text-green-300">Register New
+        Employee</a>
+    <table class="min-w-full bg-white">
+        <thead>
+            <tr>
+                <th class="py-2">Name</th>
+                <th class="py-2">Email</th>
+                <th class="py-2">Designation</th>
+                <th class="py-2">Contact No</th>
+                <th class="py-2">Alt Contact No</th>
+                <th class="py-2">City</th>
+                <th class="py-2">State</th>
+                <th class="py-2">Pin Code</th>
+                <th class="py-2">Address</th>
+                <th class="py-2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employees">
+                <td class="py-2">{{ employee.empName }}</td>
+                <td class="py-2">{{ employee.empEmailId }}</td>
+                <td class="py-2">{{ employee.empDesignationId }}</td>
+                <td class="py-2">{{ employee.empContactNo }}</td>
+                <td class="py-2">{{ employee.empAltContactNo }}</td>
+                <td class="py-2">{{ employee.empCity }}</td>
+                <td class="py-2">{{ employee.empState }}</td>
+                <td class="py-2">{{ employee.empPinCode }}</td>
+                <td class="py-2">{{ employee.empAddress }}</td>
+                <td class="py-2">
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded mr-2"
+                        (click)="editEmployee(employee.empId)">Edit</button>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded"
+                        (click)="deleteEmployee(employee.empId)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,185 @@
+<div class="container mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
+    <h1 class="text-3xl font-bold mb-6 text-center">Employee Registration Form</h1>
+
+    <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+        <!-- Employee Basic Details -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+                <label for="roleId" class="block text-gray-700 font-semibold mb-2">Role ID</label>
+                <input id="roleId" formControlName="roleId" type="number"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="userName" class="block text-gray-700 font-semibold mb-2">Username</label>
+                <input id="userName" formControlName="userName" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empCode" class="block text-gray-700 font-semibold mb-2">Employee Code</label>
+                <input id="empCode" formControlName="empCode" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empId" class="block text-gray-700 font-semibold mb-2">Employee ID</label>
+                <input id="empId" formControlName="empId" type="number"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empName" class="block text-gray-700 font-semibold mb-2">Employee Name</label>
+                <input id="empName" formControlName="empName" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empEmailId" class="block text-gray-700 font-semibold mb-2">Employee Email</label>
+                <input id="empEmailId" formControlName="empEmailId" type="email"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empDesignationId" class="block text-gray-700 font-semibold mb-2">Designation ID</label>
+                <input id="empDesignationId" formControlName="empDesignationId" type="number"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empContactNo" class="block text-gray-700 font-semibold mb-2">Contact Number</label>
+                <input id="empContactNo" formControlName="empContactNo" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empAltContactNo" class="block text-gray-700 font-semibold mb-2">Alternate Contact
+                    Number</label>
+                <input id="empAltContactNo" formControlName="empAltContactNo" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empPersonalEmailId" class="block text-gray-700 font-semibold mb-2">Personal Email</label>
+                <input id="empPersonalEmailId" formControlName="empPersonalEmailId" type="email"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empExpTotalYear" class="block text-gray-700 font-semibold mb-2">Total Experience
+                    (Years)</label>
+                <input id="empExpTotalYear" formControlName="empExpTotalYear" type="number"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empExpTotalMonth" class="block text-gray-700 font-semibold mb-2">Total Experience
+                    (Months)</label>
+                <input id="empExpTotalMonth" formControlName="empExpTotalMonth" type="number"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empCity" class="block text-gray-700 font-semibold mb-2">City</label>
+                <input id="empCity" formControlName="empCity" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empState" class="block text-gray-700 font-semibold mb-2">State</label>
+                <input id="empState" formControlName="empState" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empPinCode" class="block text-gray-700 font-semibold mb-2">Pin Code</label>
+                <input id="empPinCode" formControlName="empPinCode" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empAddress" class="block text-gray-700 font-semibold mb-2">Address</label>
+                <input id="empAddress" formControlName="empAddress" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empPerCity" class="block text-gray-700 font-semibold mb-2">Permanent City</label>
+                <input id="empPerCity" formControlName="empPerCity" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empPerState" class="block text-gray-700 font-semibold mb-2">Permanent State</label>
+                <input id="empPerState" formControlName="empPerState" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empPerPinCode" class="block text-gray-700 font-semibold mb-2">Permanent Pin Code</label>
+                <input id="empPerPinCode" formControlName="empPerPinCode" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="empPerAddress" class="block text-gray-700 font-semibold mb-2">Permanent Address</label>
+                <input id="empPerAddress" formControlName="empPerAddress" type="text"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+            <div>
+                <label for="password" class="block text-gray-700 font-semibold mb-2">Password</label>
+                <input id="password" formControlName="password" type="password"
+                    class="w-full p-2 border border-gray-300 rounded" />
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+            <div formArrayName="skills">
+                <div *ngFor="let skill of skills.controls; let i = index" [formGroupName]="i"
+                    class="bg-white p-4 rounded shadow-md mb-4">
+                    <label for="skill" class="block text-gray-700 font-semibold mb-2">Skill</label>
+                    <input id="skill" formControlName="skill" type="text"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <label for="totalYearExp" class="block text-gray-700 font-semibold mb-2 mt-2">Years of
+                        Experience</label>
+                    <input id="totalYearExp" formControlName="totalYearExp" type="number"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <label for="lastVersionUsed" class="block text-gray-700 font-semibold mb-2 mt-2">Last Version
+                        Used</label>
+                    <input id="lastVersionUsed" formControlName="lastVersionUsed" type="text"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <button type="button" (click)="removeSkill(i)"
+                        class="bg-red-500 text-white px-4 py-2 rounded mt-4">Remove Skill</button>
+                </div>
+            </div>
+            <button type="button" (click)="addSkill()" class="bg-blue-500 text-white px-4 py-2 rounded">Add
+                Skill</button>
+        </div>
+
+        <!-- Experiences Section -->
+        <div class="mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Experiences</h2>
+            <div formArrayName="experiences">
+                <div *ngFor="let experience of experiences.controls; let i = index" [formGroupName]="i"
+                    class="bg-white p-4 rounded shadow-md mb-4">
+                    <label for="companyName" class="block text-gray-700 font-semibold mb-2">Company Name</label>
+                    <input id="companyName" formControlName="companyName" type="text"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <label for="startDate" class="block text-gray-700 font-semibold mb-2 mt-2">Start Date</label>
+                    <input id="startDate" formControlName="startDate" type="date"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <label for="endDate" class="block text-gray-700 font-semibold mb-2 mt-2">End Date</label>
+                    <input id="endDate" formControlName="endDate" type="date"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <label for="designation" class="block text-gray-700 font-semibold mb-2 mt-2">Designation</label>
+                    <input id="designation" formControlName="designation" type="text"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <label for="projectsWorkedOn" class="block text-gray-700 font-semibold mb-2 mt-2">Projects Worked
+                        On</label>
+                    <input id="projectsWorkedOn" formControlName="projectsWorkedOn" type="text"
+                        class="w-full p-2 border border-gray-300 rounded" />
+
+                    <button type="button" (click)="removeExperience(i)"
+                        class="bg-red-500 text-white px-4 py-2 rounded mt-4">Remove Experience</button>
+                </div>
+            </div>
+            <button type="button" (click)="addExperience()" class="bg-blue-500 text-white px-4 py-2 rounded">Add
+                Experience</button>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button type="submit" class="bg-green-500 text-white px-6 py-3 rounded">Submit</button>
+        </div>
+    </form>
+</div>

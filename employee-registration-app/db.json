@@ -1,0 +1,136 @@
+{
+  "employees": [
+    {
+      "id": "cc86",
+      "roleId": 2,
+      "userName": "ali hamaza",
+      "empCode": "04403",
+      "empId": 1,
+      "empName": "ali hamza",
+      "empEmailId": "alishahzadk82313@gmail.com",
+      "empDesignationId": 1,
+      "empContactNo": "03002634794",
+      "empAltContactNo": "03002634794",
+      "empPersonalEmailId": "alishahzadk82313@gmail.com",
+      "empExpTotalYear": 1,
+      "empExpTotalMonth": 1,
+      "empCity": "Islamabad, Pakistan",
+      "empState": "Pakistan",
+      "empPinCode": "04403",
+      "empAddress": "Quaid I Azam University, Islamabad",
+      "empPerCity": "Sahiwal",
+      "empPerState": "Pakistan",
+      "empPerPinCode": "57000",
+      "empPerAddress": "Sahiwal Medical College, Sahiwal",
+      "password": "qwertyuiop",
+      "ErpEmployeeSkills": [
+        {
+          "empSkillId": 0,
+          "empId": 0,
+          "skill": "",
+          "totalYearExp": 0,
+          "lastVersionUsed": ""
+        }
+      ],
+      "ErmEmpExperiences": [
+        {
+          "empExpId": 0,
+          "empId": 0,
+          "companyName": "",
+          "startDate": "",
+          "endDate": "",
+          "designation": "",
+          "projectsWorkedOn": ""
+        }
+      ]
+    },
+    {
+      "id": "2dd4",
+      "roleId": 3,
+      "userName": "ali hamza",
+      "empCode": "04403",
+      "empId": 3,
+      "empName": "qqqq",
+      "empEmailId": "alishahzadk82313@gmail.com",
+      "empDesignationId": 3,
+      "empContactNo": "03002634794",
+      "empAltContactNo": "03002634794",
+      "empPersonalEmailId": "alishahzadk82313@gmail.com",
+      "empExpTotalYear": 4,
+      "empExpTotalMonth": 3,
+      "empCity": "Islamabad, Pakistan",
+      "empState": "Pakistan",
+      "empPinCode": "04403",
+      "empAddress": "Quaid I Azam University, Islamabad",
+      "empPerCity": "Islamabad, Pakistan",
+      "empPerState": "Pakistan",
+      "empPerPinCode": "04403",
+      "empPerAddress": "Quaid I Azam University, Islamabad",
+      "password": "zxcvbnm",
+      "ErpEmployeeSkills": [
+        {
+          "empSkillId": 0,
+          "empId": 0,
+          "skill": "",
+          "totalYearExp": 0,
+          "lastVersionUsed": ""
+        }
+      ],
+      "ErmEmpExperiences": [
+        {
+          "empExpId": 0,
+          "empId": 0,
+          "companyName": "",
+          "startDate": "",
+          "endDate": "",
+          "designation": "",
+          "projectsWorkedOn": ""
+        }
+      ]
+    },
+    {
+      "id": "9885",
+      "roleId": 2,
+      "userName": "ali hamza",
+      "empCode": "44000",
+      "empId": 2,
+      "empName": "admin",
+      "empEmailId": "sajidkamyana55@gmail.com",
+      "empDesignationId": 1,
+      "empContactNo": "03002634794",
+      "empAltContactNo": "03002634794",
+      "empPersonalEmailId": "alishahzadk82313@gmail.com",
+      "empExpTotalYear": 1,
+      "empExpTotalMonth": 2,
+      "empCity": "Islamabad, Pakistan",
+      "empState": "Pakistan",
+      "empPinCode": "04403",
+      "empAddress": "Quaid I Azam University, Islamabad",
+      "empPerCity": "Sahiwal",
+      "empPerState": "Pakistan",
+      "empPerPinCode": "57000",
+      "empPerAddress": "Sahiwal Medical College, Sahiwal",
+      "password": "zxcvbnm",
+      "ErpEmployeeSkills": [
+        {
+          "empSkillId": 0,
+          "empId": 0,
+          "skill": "",
+          "totalYearExp": 0,
+          "lastVersionUsed": ""
+        }
+      ],
+      "ErmEmpExperiences": [
+        {
+          "empExpId": 0,
+          "empId": 0,
+          "companyName": "",
+          "startDate": "",
+          "endDate": "",
+          "designation": "",
+          "projectsWorkedOn": ""
+        }
+      ]
+    }
+  ]
+}

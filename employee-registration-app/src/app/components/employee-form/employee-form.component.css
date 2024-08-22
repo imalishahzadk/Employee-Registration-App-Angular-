@@ -1,0 +1,17 @@
+.employee-form-card {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+button {
+  margin-top: 16px;
+}
